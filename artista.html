@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Artista · Oxe, Mais Tattoo</title>
+<meta name="description" content="Portfólio, estilos e orçamento direto com o artista do Oxe, Mais Tattoo, em Salvador.">
+<meta name="theme-color" content="#0A0A0A">
+<link rel="icon" href="fotos/logo.jpg">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Artista do Oxe, Mais Tattoo">
+<meta property="og:description" content="Veja o portfólio e peça seu orçamento.">
+<meta property="og:image" content="fotos/ricardo-zeus.jpg">
+<meta property="og:locale" content="pt_BR">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Kaushan+Script&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/estilo.css?v=20261020132421">
+</head>
+<body>
+
+<div id="faixa-demo" class="faixa-demo" hidden>
+  <b>Versão de demonstração.</b> O pedido funciona de verdade, mas fica guardado só neste aparelho até ligarmos o banco de dados.
+</div>
+
+<header class="topo">
+  <div class="wrap topo-in">
+    <a class="marca" href="index.html" aria-label="Oxe, Mais Tattoo, início">
+      <img src="fotos/logo.jpg" alt="" width="44" height="44">
+      <span><b><i>Oxe,</i> Mais Tattoo</b><small>Salvador · BA</small></span>
+    </a>
+    <nav class="menu" aria-label="Seções">
+      <a href="index.html#trabalhos">Trabalhos</a>
+      <a href="index.html#cobertura">Cobertura</a>
+      <a href="index.html#piercing">Piercing</a>
+      <a href="processo.html">Processo</a>
+    </nav>
+    <a class="btn btn-cheio mini" href="index.html#agendar">Orçamento</a>
+  </div>
+</header>
+
+<main>
+  <section class="secao" id="art-nao-achei" hidden>
+    <div class="wrap">
+      <p class="olho">Equipe</p>
+      <h2>Não achei esse nome</h2>
+      <p class="sub">Esse link não bate com ninguém da equipe. Quem atende no estúdio:</p>
+      <div class="equipe-grade" id="lista-equipe"></div>
+    </div>
+  </section>
+
+  <div id="artista-pagina" hidden>
+    <section class="art-capa">
+      <div class="art-capa-fundo"><img id="art-capa-img" src="" alt=""></div>
+      <div class="wrap">
+        <div class="art-capa-in">
+          <a class="voltar-equipe" href="index.html#equipe">← Voltar ao estúdio</a>
+          <div class="art-id">
+            <img id="art-rosto" src="" alt="" width="104" height="104">
+            <div>
+              <p class="art-oficio" id="art-oficio"></p>
+              <h1 id="art-nome"></h1>
+              <a class="arroba" id="art-arroba" target="_blank" rel="noopener"></a>
+            </div>
+          </div>
+          <p class="art-linha" id="art-linha"></p>
+          <p class="art-destaque" id="art-destaque" hidden></p>
+          <p class="art-frase" id="art-frase" hidden></p>
+          <div class="estilos" id="art-estilos" aria-label="Especialidades"></div>
+          <div class="acoes">
+            <a class="btn btn-cheio" id="art-pedir" href="index.html#agendar">Pedir orçamento</a>
+            <span id="art-extras" style="display:contents"></span>
+            <button class="btn btn-linha" id="art-compartilhar" type="button">Compartilhar</button>
+          </div>
+          <p class="compartilhado" id="art-compartilhado" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" id="art-sobre" hidden>
+      <div class="wrap">
+        <p class="olho">Sobre</p>
+        <h2>Quem é</h2>
+        <ul class="art-bio" id="art-bio"></ul>
+      </div>
+    </section>
+
+    <section class="secao secao-escura">
+      <div class="wrap">
+        <p class="olho">Portfólio</p>
+        <h2 id="art-port-titulo">Portfólio</h2>
+        <div class="galeria" id="art-portfolio"></div>
+        <div class="sem-pecas" id="art-sem-fotos" hidden><b>Portfólio chegando</b><p></p></div>
+        <div class="acoes">
+          <a class="btn btn-cheio" id="art-pedir-2" href="index.html#agendar">Pedir orçamento</a>
+          <a class="btn btn-linha" id="art-mais" target="_blank" rel="noopener">Ver mais no Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" id="art-outros">
+      <div class="wrap">
+        <p class="olho">Equipe</p>
+        <h2>Também no estúdio</h2>
+        <div class="equipe-grade" id="lista-outros"></div>
+      </div>
+    </section>
+
+    <section class="secao cta-final">
+      <div class="wrap">
+        <p class="olho" style="justify-content:center">Antes de marcar</p>
+        <h2>Da ideia à pele</h2>
+        <p class="sub">Veja como funciona o desenho, a sessão e os cuidados depois.</p>
+        <div class="acoes"><a class="btn btn-linha" href="processo.html">Ver o processo</a></div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="rodape">
+  <div class="wrap">
+    <div class="rodape-in">
+      <div style="max-width:22rem">
+        <a class="marca" href="index.html" style="margin-bottom:.9rem">
+          <img src="fotos/logo.jpg" alt="" width="44" height="44">
+          <span><b><i>Oxe,</i> Mais Tattoo</b><small>Estúdio de tatuagem · Salvador/BA</small></span>
+        </a>
+        <p class="rodape-assina">Traço fino, contraste pesado e padrão elevado.</p>
+      </div>
+      <div>
+        <b class="rodape-titulo">Navegar</b>
+        <ul class="rodape-links">
+          <li><a href="index.html#agendar">Pedir orçamento</a></li>
+          <li><a href="processo.html">Da ideia à pele</a></li>
+          <li><a href="https://www.instagram.com/oxemaistattoo/" target="_blank" rel="noopener">@oxemaistattoo</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="creditos"><span>© <span id="ano"></span> Oxe, Mais Tattoo</span></div>
+  </div>
+</footer>
+
+<a class="flutua" id="art-flutua" href="index.html#agendar">Pedir orçamento</a>
+
+<script src="assets/config.js?v=20261020132421"></script>
+<script src="assets/site.js?v=20261020132421"></script>
+</body>
+</html>
